@@ -8,6 +8,7 @@ poke -> https://pokeapi.co/
 
 dependencias {
     - yarn add @nestjs/serve-static -> para servir contenido estatico en la raiz del localost
+    - yarn add @nestjs/mongoose mongoose -> https://docs.nestjs.com/techniques/mongodb
 }
 
 recursos {
