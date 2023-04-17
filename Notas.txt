@@ -16,6 +16,14 @@ recursos {
     - nest g res pokemon
 }
 
+modulos {
+    - nest g mo common
+}
+
+Pipe {
+    - nest g pi common/pipes/parseMongoId --no-spec
+}
+
 - docker mongo
         - https://hub.docker.com/_/mongo
         - docker-compose up -d
