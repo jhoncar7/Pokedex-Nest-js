@@ -31,3 +31,5 @@ Pipe {
         - docker-compose up -d
 	    - docker-compose stop
         - mongodb://localhost:27017/nest-pokemon
+
+-. git checkout -- .
