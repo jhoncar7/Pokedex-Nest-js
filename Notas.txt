@@ -14,6 +14,7 @@ dependencias {
 
 recursos {
     - nest g res pokemon
+    - nest g res seed --no-spec
 }
 
 modulos {
@@ -27,4 +28,5 @@ Pipe {
 - docker mongo
         - https://hub.docker.com/_/mongo
         - docker-compose up -d
+	    - docker-compose stop
         - mongodb://localhost:27017/nest-pokemon
