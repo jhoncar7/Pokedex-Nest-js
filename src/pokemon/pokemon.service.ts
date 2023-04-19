@@ -34,8 +34,8 @@ export class PokemonService {
 
     let pokemon: Pokemon;
 
-    console.log(isNaN(+term)); //false cuando envio un numero
-    console.log(!isNaN(+term)); //true cuando envio un nuemro
+    // console.log(isNaN(+term)); //false cuando envio un numero
+    // console.log(!isNaN(+term)); //true cuando envio un nuemro
 
     // si es un numero entro
     if (!isNaN(+term))
