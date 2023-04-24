@@ -11,6 +11,9 @@ dependencias {
     - yarn add @nestjs/mongoose mongoose -> https://docs.nestjs.com/techniques/mongodb
     - yarn add class-validator class-transformer
     - yarn add axios@0.27.2
+    - yarn add @nestjs/config
+    - yarn add joi -> https://www.npmjs.com/package/joi
+    - yarn add joi@17.6.0
 }
 
 recursos {

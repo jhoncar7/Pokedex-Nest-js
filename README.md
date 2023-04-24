@@ -17,6 +17,10 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
+4. LLevantar la app
+```
+yarn start:dev
+```
 
 5. Reconstruir la base de datos con la semilla
 ```
